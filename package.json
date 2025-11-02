@@ -8,7 +8,7 @@
     "build": "webpack",
     "test": "jest"
   },
-  "author": "Tên của bạn",
+  "author": "John Doe",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
