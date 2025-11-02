@@ -1,6 +1,6 @@
 {
   "name": "frameworks-frontend-vietnam",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Mẫu giao diện người dùng cho ứng dụng frontend",
   "main": "index.js",
   "scripts": {
