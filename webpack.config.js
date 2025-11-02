@@ -10,7 +10,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/, // Transpile ES6+ to ES5
-        exclude: /node_modules/,
+        exclude: /node_modules/, 
         use: {
           loader: 'babel-loader',
           options: {
@@ -23,6 +23,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 9000
+    port: 9000,
+    open: true
   }
 };
